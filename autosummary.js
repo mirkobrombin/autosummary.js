@@ -1,4 +1,4 @@
-headings = document.querySelectorAll("main>article>div h2,main>article>div h3,main>article>div h4"),
+headings = document.querySelectorAll("article h2,article h3,article h4"),
 summary = document.querySelector("aside>ul"),
 document.querySelector("aside>ul>li:first-child").remove(),
 url = window.location.href,
