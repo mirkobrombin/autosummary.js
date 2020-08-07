@@ -32,7 +32,7 @@ First of all import `autosummary.js` in your project, then assuming we have a la
 autosummary("article", "aside>ul");
 ```
 
-## How works
+## How it works
 autosummary.js creates an index with all the headings in the article. A unique `id` is added to these titles which is used as a placeholder for the index entries.
 
 When the content is scrolled, based on the heading closest to the top of the window, the `active` class is added to the relevant index entry.
