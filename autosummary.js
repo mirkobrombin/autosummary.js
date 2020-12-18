@@ -1,3 +1,21 @@
+/* https://github.com/mirkobrombin/autosummary.js
+ * 
+ * Copyright (c) 2020 Mirko Brombin <send@mirko.pm>
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 function autosummary(article_element, summary_element) {
     headings = document.querySelectorAll(article_element + "h2," + article_element + " h3," + article_element + " h4"),
     article = document.querySelector(article_element),
