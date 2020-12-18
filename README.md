@@ -1,8 +1,6 @@
 # autosummary.js
 Automatically generate a summary for you articles
 
-> **⚠️This repository was migrated: https://git.mirko.pm/brombinmirko/autosummary-js**
-
 ## How to use
 First of all import `autosummary.js` in your project, then assuming we have a layout like this:
 ```html
